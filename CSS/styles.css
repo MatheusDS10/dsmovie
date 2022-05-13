@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 :root{
     --bg-gray: #ddd;
-    --color-primary: #4D41C0;
+    --text-gray: #4A4A4A;
+    --color-primary: #41bcc0;
     --white: #fff
 }
 *{
@@ -49,11 +50,54 @@ a, a:hover {
     color: unset;
 }
 
-.dsmovie-contact-container{
+.dsbooks-contact-container{
     display: flex;
     align-items: center;
 }
 
-.dsmovie-contact-container img{
+.dsbooks-contact-container img{
     margin-right: 10px 
+}
+
+#dsbooks-card-list{
+    padding: 40px 0;
+}
+
+.dsbooks-card{
+    width: 300px;
+}
+
+.dsbooks-card img{
+    width: 100% ;
+    border-radius: 8px 8px 0 0;
+
+}
+
+.dsbooks-card-description {
+    background-color: var(--white);
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+ 
+.dsbooks-card-description h3 {
+    font-size: 14px;
+    font-weight: 700px;
+    margin-bottom: 25px ;
+
+}
+
+.dsbooks-btn, .dsbooks-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color:var(--white);
+    font-size: 14px;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
